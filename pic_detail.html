@@ -1,0 +1,232 @@
+﻿<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>产品详情页</title>
+		<!--css-->
+		<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+		<link href="css/style.css" rel='stylesheet' type='text/css' />
+		<!--css-->
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta name="keywords" content="" />
+		<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+		<!--js-->
+		<script src="js/jquery-1.11.1.min.js"></script>
+		<script src="js/bootstrap.js"></script>
+		<!--js-->
+		<!--JS for animate-->
+		<link href="css/animate.css" rel="stylesheet" type="text/css" media="all">
+		<link href="css/my.css" rel="stylesheet" type="text/css">
+		<script src="js/wow.min.js"></script>
+		<script>
+			new WOW().init();
+		</script>
+		<!--//end-animate-->
+		<script src="js/my.js"></script>
+	</head>
+	<body>
+		<!--header-->
+		<nav class="navbar navbar-default navbar-fixed-top">
+			<div class="container">
+				<div class="navbar-header wow fadeInLeft animated" data-wow-delay="0.4s">
+					<h1><a class="navbar-brand" href="index.html"><img src="picture/e.png"/>Table Tennis</a></h1>
+				</div>
+				<div id="navbar" class="navbar-collapse collapse">
+					<ul class="nav navbar-nav navbar-right wow fadeInRight animated" data-wow-delay="0.4s">
+						<li class="active"><a class="nav-in" href="index.html"><span data-letters="网站首页">网站首页</span></a></li>
+						
+						<li><a class="nav-in" href="about.html"><span data-letters="关于我们">关于我们</span></a></li>
+						<li >
+							<a class="nav-in" id="li-2"  href="javascript:void(0)"><span data-letters="相关器材">相关器材</span></a>
+							<div id="box-2" class="hidden-box hidden-loc-us" style="display:none" >
+								<ul>
+									<li><a href="pic_list.html" >器材分类名</a></li>
+									<li><a href="pic_list.html" >器材分类名</a></li>
+									<li><a href="pic_list.html" >器材分类名</a></li>
+									<li><a href="pic_list.html" >器材分类名</a></li>
+									<li><a href="pic_list.html" >器材分类名</a></li>
+									<li><a href="pic_list.html" >器材分类名</a></li>
+								</ul>
+							</div>
+						</li>
+						<li><a class="nav-in" href="arc_list.html"><span data-letters="相关资讯">相关资讯</span></a></li>
+					</ul>
+					
+					</div><!--/.nav-collapse -->
+				</div>
+			</nav>
+			<!--banner-->
+			<div class="banner wow fadeInDownBig animated animated" data-wow-delay="0.4s">
+				<div class="container">
+					<h2>&nbsp;</h2>
+					<div class="news_seek">
+		            <form method="post" action="" id="form">
+		                <input style="width: 200px;" value="43" name="pid" type="hidden">
+		                <input style="width: 200px;" value="22" name="mid" type="hidden">
+		                <input style="display: inline-block; width: 200px; padding:5px;" value="" name="keywords" id="k" class="text" type="text" placeholder='请输入关键字'>
+		                <img src="images/btn_search.png" onclick="search_news()" alt="搜索网站案例" height="16" width="16">
+		            </form>
+		        </div>
+				</div>
+				
+			</div>
+			<!--banner-->
+
+			<!--bread-->
+			<div class="bread wow fadeInLeft animated" data-wow-delay="0.4s">
+				<ol class="breadcrumb">
+				  <li><a href="#">首页</a></li>
+				  <li><a href="#">器材类名称</a></li>
+				  <li><a href="#">器材品牌名称</a></li>
+				  <li  class="active">器材名称</li>
+				</ol>
+			</div>
+			<!--bread-->
+
+			<!--about-->
+			
+			
+			<div class="testimonials-section" style="padding:40px 0px;background:#fff;">
+					<div class="container">
+
+							<script type="text/javascript" src="js/jquery.1.4.2-min.js"></script>
+							<div class="preview wow fadeInLeft animated" data-wow-delay="0.4s">
+								<div id="vertical" class="bigImg">
+									<img src="picture/c1.jpg" width="400" height="400" alt="" id="midimg" />
+									<div style="display:none;" id="winSelector"></div>
+								</div><!--bigImg end-->
+								
+								<!-- <div class="smallImg">
+									<div class="scrollbutton smallImgUp disabled"></div>
+									<div id="imageMenu">
+										<ul>
+											<li id="onlickImg"><img src="picture/c1.jpg" width="68" height="68" alt="洋妞"/></li>
+											<li><img src="picture/c1.jpg" width="68" height="68" alt="洋妞"/></li>
+											<li><img src="picture/c2.jpg" width="68" height="68" alt="洋妞"/></li>
+											<li><img src="picture/c3.jpg" width="68" height="68" alt="洋妞"/></li>
+										</ul>
+									</div>
+									<div class="scrollbutton smallImgDown"></div>
+								</div>--> 
+								
+								<div id="bigView" style="display:none;"><img width="800" height="800" alt="" src="" /></div>
+								
+							</div><!--preview end-->
+							<h5 style="width:680px; float:right" class="wow fadeInRight animated" data-wow-delay="0.4s">器材名称</h5>
+							<div class="widget-box detail-info wow fadeInRight animated" data-wow-delay="0.4s">
+								<div class="widget-title">
+									<h5>用户评级</h5>
+								</div>
+								<div class="widget-content nopadding">
+									<table class="table table-bordered table-striped">
+										<thead>
+											<tr>
+												<th>属性</th>
+												<th>属性值</th>
+											</tr>
+										</thead>
+										<tbody>
+											<tr>
+												<td>速度</td>
+												<td>100</td>
+											</tr>
+											<tr>
+												<td>速度</td>
+												<td>100</td>
+											</tr>
+										</tbody>
+									</table>							
+								</div>
+							</div>
+
+							<div class="widget-box detail-info wow fadeInRight animated" data-wow-delay="0.4s">
+								<div class="widget-title">
+									<h5>官方参数</h5>
+								</div>
+								<div class="widget-content nopadding">
+									<table class="table table-bordered table-striped">
+										<thead>
+											<tr>
+												<th>属性</th>
+												<th>属性值</th>
+											</tr>
+										</thead>
+										<tbody>
+											<tr>
+												<td>速度</td>
+												<td>100</td>
+											</tr>
+											<tr>
+												<td>速度</td>
+												<td>100</td>
+											</tr>
+										</tbody>
+									</table>							
+								</div>
+							</div>
+
+						
+
+
+						
+					</div>
+				</div>
+
+			<!--about-->
+			<!--footer-->
+				<div class="footer-section">
+					<div class="container">
+						<div class="footer-grids">
+							<div class="col-md-3 footer-grid wow fadeInDownBig animated" data-wow-delay="0.4s">
+								<h4>关于我们</h4>
+								<p>关于我们关于我们关于我们关于我们关于我们关于我们关于我们关于我们关于我们关于我们关于我们关于我们关于我们关于我们</p>
+							</div>
+							<div class="col-md-3 footer-grid wow fadeInLeft animated" data-wow-delay="0.4s">
+								<h4>最新器材</h4>
+								<ul>
+									<li><a href="">器材名称</a></li>
+									<li><a href="">器材名称</a></li>
+									<li><a href="">器材名称</a></li>
+									<li><a href="">器材名称</a></li>
+									<li><a href="">器材名称</a></li>
+								</ul>
+							</div>
+							<div class="col-md-3 footer-grid wow fadeInUpBig animated" data-wow-delay="0.4s">
+								<h4>最新资讯</h4>
+								<ul>
+									<li><a href="">资讯标题</a></li>
+									<li><a href="">资讯标题</a></li>
+									<li><a href="">资讯标题</a></li>
+									<li><a href="">资讯标题</a></li>
+									<li><a href="">资讯标题</a></li>
+								</ul>
+							</div>
+							<div class="col-md-3 footer-grid wow fadeInRight animated" data-wow-delay="0.4s">
+								<h4>Contact</h4>
+								<p>7801 Marmora Road</p>
+								<p>Glasgow, DO5 98GR.</p>
+								<p>Freephone: +1 800 558 8990</p>
+								<p>Telephone: +1 659 803 9035</p>
+								<p>FAX: + 1 314 889 9898</p>
+								<a href="mailto:example@mail.com"> example@mail.com</a>
+							</div>
+							<div class="clearfix"></div>
+						</div>
+					</div>
+				</div>
+				<!--footer-->
+				<!--copy-->
+				<div class="copy-section wow fadeInDownBig animated" data-wow-delay="0.4s">
+					<div class="container">
+						<div class="social-icons">
+							<a href="#"><i class="icon"></i></a>
+							<a href="#"><i class="icon1"></i></a>
+							<a href="#"><i class="icon2"></i></a>
+							<a href="#"><i class="icon3"></i></a>
+						</div>
+						<p>Copyright &copy; 2016.Company name All rights reserved.</p>
+					</div>
+				</div>
+				<!--copy-->
+			</body>
+		</html>
