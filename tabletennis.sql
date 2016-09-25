@@ -10,7 +10,7 @@ Target Server Type    : MYSQL
 Target Server Version : 50538
 File Encoding         : 65001
 
-Date: 2016-09-05 00:42:54
+Date: 2016-09-19 00:35:09
 */
 
 SET FOREIGN_KEY_CHECKS=0;
@@ -374,12 +374,13 @@ CREATE TABLE `tb_ext` (
   `ext` text NOT NULL COMMENT '扩展内容',
   PRIMARY KEY (`id`),
   KEY `module` (`module`)
-) ENGINE=MyISAM AUTO_INCREMENT=814 DEFAULT CHARSET=utf8 COMMENT='字段管理器';
+) ENGINE=MyISAM AUTO_INCREMENT=822 DEFAULT CHARSET=utf8 COMMENT='字段管理器';
 
 -- ----------------------------
 -- Records of tb_ext
 -- ----------------------------
 INSERT INTO `tb_ext` VALUES ('35', 'all-4', '内容', 'content', 'longtext', '', 'code_editor', '', 'html_js', '', '90', 'a:2:{s:5:\"width\";s:3:\"700\";s:6:\"height\";s:3:\"200\";}');
+INSERT INTO `tb_ext` VALUES ('821', 'cate-607', '通栏图片', 'banner', 'varchar', '', 'upload', '', 'safe', '', '40', 'a:3:{s:7:\"cate_id\";s:1:\"1\";s:11:\"is_multiple\";s:1:\"0\";s:11:\"upload_auto\";s:1:\"1\";}');
 INSERT INTO `tb_ext` VALUES ('218', 'project-43', '英文标题En-Title', 'entitle', 'varchar', '', 'text', '', 'safe', '', '10', 'a:2:{s:8:\"form_btn\";b:0;s:5:\"width\";s:3:\"500\";}');
 INSERT INTO `tb_ext` VALUES ('219', 'project-43', '通栏图片', 'banner', 'varchar', '', 'upload', '', 'safe', '', '40', 'a:3:{s:11:\"upload_type\";s:7:\"picture\";s:7:\"cate_id\";s:1:\"1\";s:11:\"is_multiple\";s:1:\"0\";}');
 INSERT INTO `tb_ext` VALUES ('231', 'all-37', '百度分享代码', 'baidu', 'longtext', '', 'code_editor', '', 'html_js', '', '10', 'a:2:{s:5:\"width\";s:3:\"800\";s:6:\"height\";s:3:\"300\";}');
@@ -388,6 +389,13 @@ INSERT INTO `tb_ext` VALUES ('240', 'cate-205', '摘要', 'note', 'longtext', '�
 INSERT INTO `tb_ext` VALUES ('241', 'cate-206', '摘要', 'note', 'longtext', '简要文字描述', 'textarea', '', 'safe', '', '20', 'a:2:{s:5:\"width\";s:3:\"600\";s:6:\"height\";s:2:\"80\";}');
 INSERT INTO `tb_ext` VALUES ('259', 'cate-207', '摘要', 'note', 'longtext', '简要文字描述', 'textarea', '', 'safe', '', '20', 'a:2:{s:5:\"width\";s:3:\"600\";s:6:\"height\";s:2:\"80\";}');
 INSERT INTO `tb_ext` VALUES ('276', 'cate-70', '英文标题', 'entitle', 'varchar', '设置与主题名称相对应的英文标题', 'text', '', 'safe', '', '255', 'a:4:{s:8:\"form_btn\";b:0;s:5:\"width\";s:3:\"500\";s:15:\"ext_quick_words\";b:0;s:14:\"ext_quick_type\";b:0;}');
+INSERT INTO `tb_ext` VALUES ('820', 'cate-604', '通栏图片', 'banner', 'varchar', '', 'upload', '', 'safe', '', '40', 'a:3:{s:7:\"cate_id\";s:1:\"1\";s:11:\"is_multiple\";s:1:\"0\";s:11:\"upload_auto\";s:1:\"1\";}');
+INSERT INTO `tb_ext` VALUES ('819', 'cate-601', '通栏图片', 'banner', 'varchar', '', 'upload', '', 'safe', '', '40', 'a:3:{s:7:\"cate_id\";s:1:\"1\";s:11:\"is_multiple\";s:1:\"0\";s:11:\"upload_auto\";s:1:\"1\";}');
+INSERT INTO `tb_ext` VALUES ('814', 'cate-586', '通栏图片', 'banner', 'varchar', '', 'upload', '', 'safe', '', '40', 'a:3:{s:7:\"cate_id\";s:1:\"1\";s:11:\"is_multiple\";s:1:\"0\";s:11:\"upload_auto\";s:1:\"1\";}');
+INSERT INTO `tb_ext` VALUES ('815', 'cate-589', '通栏图片', 'banner', 'varchar', '', 'upload', '', 'safe', '', '40', 'a:3:{s:7:\"cate_id\";s:1:\"1\";s:11:\"is_multiple\";s:1:\"0\";s:11:\"upload_auto\";s:1:\"1\";}');
+INSERT INTO `tb_ext` VALUES ('816', 'cate-592', '通栏图片', 'banner', 'varchar', '', 'upload', '', 'safe', '', '40', 'a:3:{s:7:\"cate_id\";s:1:\"1\";s:11:\"is_multiple\";s:1:\"0\";s:11:\"upload_auto\";s:1:\"1\";}');
+INSERT INTO `tb_ext` VALUES ('817', 'cate-595', '通栏图片', 'banner', 'varchar', '', 'upload', '', 'safe', '', '40', 'a:3:{s:7:\"cate_id\";s:1:\"1\";s:11:\"is_multiple\";s:1:\"0\";s:11:\"upload_auto\";s:1:\"1\";}');
+INSERT INTO `tb_ext` VALUES ('818', 'cate-598', '通栏图片', 'banner', 'varchar', '', 'upload', '', 'safe', '', '40', 'a:3:{s:7:\"cate_id\";s:1:\"1\";s:11:\"is_multiple\";s:1:\"0\";s:11:\"upload_auto\";s:1:\"1\";}');
 INSERT INTO `tb_ext` VALUES ('813', 'project-87', '内容', 'content', 'longtext', '', 'editor', '', 'html', '', '255', 'a:11:{s:5:\"width\";s:3:\"950\";s:6:\"height\";s:3:\"360\";s:7:\"is_code\";s:0:\"\";s:9:\"btn_image\";s:1:\"1\";s:9:\"btn_video\";s:1:\"1\";s:8:\"btn_file\";s:1:\"1\";s:8:\"btn_page\";s:0:\"\";s:8:\"btn_info\";s:0:\"\";s:7:\"is_read\";s:0:\"\";s:5:\"etype\";s:4:\"full\";s:7:\"btn_map\";s:0:\"\";}');
 
 -- ----------------------------
@@ -412,7 +420,15 @@ INSERT INTO `tb_extc` VALUES ('240', '围绕我公司提供的产品进行讨论
 INSERT INTO `tb_extc` VALUES ('241', '吐吐糟，发发牢骚，八卦精神无处不在\r\n笑一笑，十年少，在这个快节奏的时代里，这里还有一片净土供您休息\r\n不是我不爱，只是世界变化快^o^');
 INSERT INTO `tb_extc` VALUES ('259', '关于常见问题');
 INSERT INTO `tb_extc` VALUES ('276', 'Categories');
+INSERT INTO `tb_extc` VALUES ('816', '');
+INSERT INTO `tb_extc` VALUES ('815', '');
+INSERT INTO `tb_extc` VALUES ('814', '');
 INSERT INTO `tb_extc` VALUES ('813', '<p><span style=\"font-family: 微软雅黑, &#39;Microsoft YaHei&#39;\">这里是关于我们的内容这里是关于我们的内容这里是关于我们的内容这里是关于我们的内容这里是关于我们的内容这里是关于我们的内容这里是关于我们的内容这里是关于我们的内容这里是关于我们的内容这里是关于我们的内容这里是关于我们的内容这里是关于我们的内容这里是关于我们的内容这里是关于我们的内容这里是关于我们的内容这里是关于我们的内容这里是关于我们的内容这里是关于我们的内容这里是关于我们的内容这里是关于我们的内容这里是关于我们的内容这里是关于我们的内容这里是关于我们的内容这里是关于我们的内容这里是关于我们的内容这里是关于我们的内容这里是关于我们的内容这里是关于我们的内容这里是关于我们的内容这里是关于我们的内容这里是关于我们的内容这里是关于我们的内容这里是关于我们的内容这里是关于我们的内容这里是关于我们的内容这里是关于我们的内容这里是关于我们的内容这里是关于我们的内容这里是关于我们的内容这里是关于我们的内容这里是关于我们的内容这里是关于我们的内容这里是关于我们的内容这里是关于我们的内容这里是关于我们的内容</span></p>');
+INSERT INTO `tb_extc` VALUES ('817', '');
+INSERT INTO `tb_extc` VALUES ('818', '');
+INSERT INTO `tb_extc` VALUES ('819', '');
+INSERT INTO `tb_extc` VALUES ('820', '');
+INSERT INTO `tb_extc` VALUES ('821', '');
 
 -- ----------------------------
 -- Table structure for tb_fav
@@ -1044,7 +1060,7 @@ CREATE TABLE `tb_list_74` (
   `cate_id` mediumint(8) unsigned NOT NULL DEFAULT '0' COMMENT '主分类ID',
   `price` varchar(255) NOT NULL DEFAULT '' COMMENT '价格',
   `thumb` varchar(255) NOT NULL DEFAULT '' COMMENT '缩略图',
-  `speed` varchar(255) NOT NULL DEFAULT '' COMMENT '速度',
+  `speed` varchar(255) NOT NULL DEFAULT '' COMMENT '用户评估的速度(1-10)',
   `spin` varchar(255) NOT NULL DEFAULT '' COMMENT '旋转',
   `control` varchar(255) NOT NULL DEFAULT '' COMMENT '控制',
   `tackiness` varchar(255) NOT NULL DEFAULT '' COMMENT '粘性',
@@ -1521,7 +1537,7 @@ INSERT INTO `tb_module_fields` VALUES ('310', '80', '价格', 'price', 'varchar'
 INSERT INTO `tb_module_fields` VALUES ('311', '80', '缩略图', 'thumb', 'varchar', '', 'upload', '', 'safe', '', '20', 'a:3:{s:7:\"cate_id\";s:1:\"1\";s:11:\"is_multiple\";s:1:\"0\";s:11:\"upload_auto\";s:1:\"1\";}', '0', '0', '');
 INSERT INTO `tb_module_fields` VALUES ('312', '81', '价格', 'price', 'varchar', '价格', 'text', '', 'float', '', '10', 'a:4:{s:8:\"form_btn\";s:0:\"\";s:5:\"width\";s:3:\"200\";s:15:\"ext_quick_words\";s:0:\"\";s:14:\"ext_quick_type\";s:0:\"\";}', '0', '0', '');
 INSERT INTO `tb_module_fields` VALUES ('313', '81', '缩略图', 'thumb', 'varchar', '', 'upload', '', 'safe', '', '20', 'a:3:{s:7:\"cate_id\";s:1:\"1\";s:11:\"is_multiple\";s:1:\"0\";s:11:\"upload_auto\";s:1:\"1\";}', '0', '0', '');
-INSERT INTO `tb_module_fields` VALUES ('314', '74', '速度', 'speed', 'varchar', '用户评估的速度(1-10)', 'text', '', 'float', '', '30', 'a:4:{s:8:\"form_btn\";s:0:\"\";s:5:\"width\";s:3:\"100\";s:15:\"ext_quick_words\";s:0:\"\";s:14:\"ext_quick_type\";s:0:\"\";}', '0', '0', '');
+INSERT INTO `tb_module_fields` VALUES ('314', '74', '用户评估的速度(1-10)', 'speed', 'varchar', '这里是备注的内容哦这里是备注的内容哦这里是备注的内容哦', 'text', '', 'float', '', '30', 'a:4:{s:8:\"form_btn\";s:0:\"\";s:5:\"width\";s:3:\"100\";s:15:\"ext_quick_words\";s:0:\"\";s:14:\"ext_quick_type\";s:0:\"\";}', '0', '0', '');
 INSERT INTO `tb_module_fields` VALUES ('315', '74', '旋转', 'spin', 'varchar', '用户评估的旋转(1-10)', 'text', '', 'float', '', '40', 'a:4:{s:8:\"form_btn\";s:0:\"\";s:5:\"width\";s:3:\"100\";s:15:\"ext_quick_words\";s:0:\"\";s:14:\"ext_quick_type\";s:0:\"\";}', '0', '0', '');
 INSERT INTO `tb_module_fields` VALUES ('316', '74', '控制', 'control', 'varchar', '用户评估的控制(1-10)', 'text', '', 'float', '', '50', 'a:4:{s:8:\"form_btn\";s:0:\"\";s:5:\"width\";s:3:\"100\";s:15:\"ext_quick_words\";s:0:\"\";s:14:\"ext_quick_type\";s:0:\"\";}', '0', '0', '');
 INSERT INTO `tb_module_fields` VALUES ('317', '74', '粘性', 'tackiness', 'varchar', '用户评估的粘性(1-10)', 'text', '', 'float', '', '60', 'a:4:{s:8:\"form_btn\";s:0:\"\";s:5:\"width\";s:3:\"100\";s:15:\"ext_quick_words\";s:0:\"\";s:14:\"ext_quick_type\";s:0:\"\";}', '0', '0', '');
@@ -2662,7 +2678,7 @@ INSERT INTO `tb_project` VALUES ('388', '383', '1', '78', '598', '球', '球', '
 INSERT INTO `tb_project` VALUES ('389', '383', '1', '77', '595', '球台', '球台', '10', '1', '', 'rubbers_list', 'rubbers_content', '0', '', 'l.sort ASC,l.dateline DESC,l.id DESC', '球台器材名称', '', '30', '0', 'tables', '', '', '', '0', '1', '1', '0', '0', '0', '0', '0', '', '0', '0', '0', '', '', '', '', '', '1', '', '0', '0', '0', '0');
 INSERT INTO `tb_project` VALUES ('390', '383', '1', '76', '592', '球板', '球板', '10', '1', '', 'rubbers_list', 'rubbers_content', '0', '', 'l.sort ASC,l.dateline DESC,l.id DESC', '球板名称', '', '30', '0', 'blades', '', '', '', '0', '1', '1', '0', '0', '0', '0', '0', '', '0', '0', '0', '', '', '', '', '', '1', '', '0', '0', '0', '0');
 INSERT INTO `tb_project` VALUES ('391', '383', '1', '75', '589', '正胶套胶', '正胶套胶', '10', '1', '', 'rubbers_list', 'rubbers_content', '0', '', 'l.sort ASC,l.dateline DESC,l.id DESC', '正胶套胶器材名称', '', '30', '0', 'pips', '', '', '', '0', '1', '1', '0', '0', '0', '0', '0', '', '0', '0', '0', '', '', '', '', '', '1', '', '0', '0', '0', '0');
-INSERT INTO `tb_project` VALUES ('392', '383', '1', '74', '0', '反胶套胶', '反胶套胶', '10', '1', '', 'rubbers_list', 'rubbers_content', '0', '', 'l.sort ASC,l.dateline DESC,l.id DESC', '反胶套胶器材名称', '', '30', '0', 'rubbers', '', '', '', '0', '1', '1', '0', '0', '0', '0', '0', '', '0', '0', '0', '', '', '', '', '', '1', '', '0', '0', '0', '0');
+INSERT INTO `tb_project` VALUES ('392', '383', '1', '74', '586', '反胶套胶', '反胶套胶', '10', '1', '', 'rubbers_list', 'rubbers_content', '0', '', 'l.sort ASC,l.dateline DESC,l.id DESC', '反胶套胶器材名称', '', '30', '0', 'rubbers', '', '', '', '0', '1', '1', '0', '0', '0', '0', '0', '', '0', '0', '0', '', '', '', '', '', '1', '', '0', '0', '0', '0');
 
 -- ----------------------------
 -- Table structure for tb_reply

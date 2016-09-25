@@ -1,10 +1,10 @@
-﻿body a{
+﻿/*body a{
  transition:0.5s all;
  -webkit-transition:0.5s all;
  -moz-transition:0.5s all;
  -o-transition:0.5s all;
  -ms-transition:0.5s all;
-}
+}*/
 h1,h2,h3,h4,h5,h6{
 	padding:0px 0px;
 	margin:0px 0px;
@@ -20,7 +20,6 @@ ul{
 body{
 	padding:0px 0px;
 	margin:0px 0px;
-  background-color: #ECECEC;
 	font-family: '微软雅黑',Tahoma, Helvetica, Arial, "\5b8b\4f53", sans-serif;
 }
 a.navbar-brand {
@@ -567,7 +566,7 @@ a.button1 {
     margin: 0.8em 0;
 }
 .testimonials-section {
-    padding: 5em 0;
+    padding: 2em 0;
     background-color: #fff;
 }
 .testimonials-section h3{
@@ -582,7 +581,7 @@ a.button1 {
 }
 
 .testimonials-section p.statement{
-   height: 115px ;
+   height: 88px ;
 }
 .testimonials-section p.statement a{
    color: #0297B7;
