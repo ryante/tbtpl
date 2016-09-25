@@ -370,7 +370,7 @@ table.top_product_list tr.head a {
 
 .mytable {  
  padding: 0;  
- margin: 0;  
+ margin-bottom:20px; 
  width: 100%;
 }  
   
@@ -415,3 +415,15 @@ table.top_product_list tr.head a {
  font-weight: 700;
  text-align: right;
 }  
+
+.mytable td.overall{
+    background-color: #77A1B9; color: #fff; font-weight: 700;
+}
+
+.text-primary{ color: #428bca !important}
+.statement .expand{ color: #0297B7}
+.statement .txtHide{ display: none;}
+.recommend-article .news_cont{ width: 660px;}
+.testimonials-section h5{ margin-bottom: 0px; font-size: 1.3em;}
+.recommend-article .news_cont .demo{ height: 100px}
+.recommend-article .news_cont .btn_news_more{ margin-top: -20px;}

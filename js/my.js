@@ -4,6 +4,22 @@
  * @date    2016-09-01 13:44:53
  * @version $Id$
  */
+//属性提示
+jQuery( document ).ready(function( $ ) {
+   $("[data-toggle='tooltip']").tooltip();
+});
+
+//展开与收缩 pic-detail.html
+$(document).ready(function(){
+    $('#showTxt').click(function(){
+        $('.txtHide').css('display','inline');
+        $('#showTxt').css('display','none');
+    });
+     $('#hideTxt').click(function(){
+        $('.txtHide').css('display','none');
+        $('#showTxt').css('display','inline-block');
+    })
+});
 
 $(document).ready(function(){
 	$('#li-2').hover(function(){
