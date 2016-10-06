@@ -66,7 +66,6 @@ a.navbar-brand {
 	top: 0;
 	right: 0;
 	z-index: -1;
-	background: #00bbd3;
 	-webkit-transform: translate3d(101%,0,0);
 	transform: translate3d(101%,0,0);
 	-webkit-transition: -webkit-transform 0.5s;
@@ -88,7 +87,7 @@ a.navbar-brand {
 .nav-in span::before {
 	content: attr(data-letters);
 	position: absolute;
-	color: #1E1E1E;
+	/*color: #1E1E1E;*/
 	left: 0;
 	overflow: hidden;
 	white-space: nowrap;

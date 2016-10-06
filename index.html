@@ -17,22 +17,27 @@
 		<!--JS for animate-->
 		<link href="css/animate.css" rel="stylesheet" type="text/css" media="all">
 		<link href="css/my.css" rel="stylesheet" type="text/css">
-		<script src="js/wow.min.js"></script>
+		<!--<script src="js/wow.min.js"></script>
 		<script>
 			new WOW().init();
-		</script>
+		</script>-->
 		<!--//end-animate-->
 		<script src="js/my.js"></script>
+		<link rel="stylesheet" href="css/swiper-3.3.1.min.css">
+		<link rel="stylesheet" href="css/mySwiper.css">
+		<script src="js/swiper-3.3.1.jquery.min.js"></script>
+		<script src="js/swiper.animate1.0.2.min.js"></script>
+		<script type="text/javascript" src="js/mySwiper.js"></script>
 	</head>
 	<body>
 		<!--header-->
-		<nav class="navbar navbar-default navbar-fixed-top">
+		<nav class="navbar navbar-default navbar-fixed-top swipe-handler">
 			<div class="container">
-				<div class="navbar-header wow fadeInLeft animated" data-wow-delay="0.4s">
+				<div class="navbar-header fadeInLeft animated">
 					<h1><a class="navbar-brand" href="index.html"><img src="picture/e.png"/>Table Tennis</a></h1>
 				</div>
 				<div id="navbar" class="navbar-collapse collapse">
-					<ul class="nav navbar-nav navbar-right wow fadeInRight animated" data-wow-delay="0.4s">
+					<ul class="nav navbar-nav navbar-right fadeInRight animated">
 						<li class="active"><a class="nav-in" href="index.html"><span data-letters="网站首页">网站首页</span></a></li>
 						
 						<li>
@@ -53,458 +58,429 @@
 						<li><a class="nav-in" href="about.html"><span data-letters="登录">登录</span></a></li>
 					</ul>
 					
-					</div><!--/.nav-collapse -->
-				</div>
-			</nav>
-			<!--banner-->
-			<div class="banner-section">
-				<div class="container">
-					<div class="slider">
-						<div class="callbacks_container">
-							<ul class="rslides" id="slider">
-								<li>
-									<div class="caption">
-										<div class="col-md-6 cap-left wow fadeInDownBig animated" data-wow-delay="0.4s">
-											<p>标语内容一标语内容一标语内容一标语内容一标语内容一标语内容一标语内容一标语内容一标语内容一</p>
+				</div><!--/.nav-collapse -->
+			</div>
+		</nav>
+		<div class="swiper-container">
+			<!-- 如果需要分页器 -->
+	    	<div class="swiper-pagination"></div>
+			<div class="swiper-wrapper">
+				<div class="swiper-slide swiper-slide1">
+					<!--banner-->
+					<div class="banner-section">
+						<div class="container">
+							<div class="slider">
+								<div class="callbacks_container">
+									<ul class="rslides" id="slider">
+										<li>
+											<div class="caption">
+												<div class="col-md-6 cap-left ani" swiper-animate-effect="fadeInDownBig" swiper-animate-duration="0.5s" swiper-animate-delay="0.4s">
+													<p>标语内容一标语内容一标语内容一标语内容一标语内容一标语内容一标语内容一标语内容一标语内容一</p>
+													
+												</div>
+												<div class="col-md-6 cap-right ani" swiper-animate-effect="fadeInDownBig" swiper-animate-duration="0.5s" swiper-animate-delay="0.4s">
+													<h3>标语标题一标语标题一</h3>
+												</div>
+												<div class="clearfix"></div>
+											</div>
+										</li>
+										<li>
+											<div class="caption">
+												<div class="col-md-6 cap-left ani" swiper-animate-effect="fadeInDownBig" swiper-animate-duration="0.5s" swiper-animate-delay="0.4s">
+													<p>标语内容一标语内容一标语内容一标语内容一标语内容一标语内容一标语内容一标语内容一标语内容一</p>
+													
+												</div>
+												<div class="col-md-6 cap-right ani" swiper-animate-effect="fadeInDownBig" swiper-animate-duration="0.5s" swiper-animate-delay="0.4s">
+													<h3>标语标题一标语标题一</h3>
+												</div>
+												<div class="clearfix"></div>
+											</div>
 											
-										</div>
-										<div class="col-md-6 cap-right wow fadeInUpBig animated" data-wow-delay="0.4s">
-											<h3>标语标题一标语标题一</h3>
-										</div>
-										<div class="clearfix"></div>
-									</div>
-								</li>
-								<li>
-									<div class="caption">
-										<div class="col-md-6 cap-left wow fadeInDownBig animated" data-wow-delay="0.4s">
-											<p>标语标题二标语标题二标语标题二标语标题二标语标题二标语标题二标语标题二标语标题二标语标题二标语标题二</p>
+										</li>
+										<li>
+											<div class="caption">
+												<div class="col-md-6 cap-left ani" swiper-animate-effect="fadeInDownBig" swiper-animate-duration="0.5s" swiper-animate-delay="0.4s">
+													<p>标语内容一标语内容一标语内容一标语内容一标语内容一标语内容一标语内容一标语内容一标语内容一</p>
+													
+												</div>
+												<div class="col-md-6 cap-right ani" swiper-animate-effect="fadeInDownBig" swiper-animate-duration="0.5s" swiper-animate-delay="0.4s">
+													<h3>标语标题一标语标题一</h3>
+												</div>
+												<div class="clearfix"></div>
+											</div>
 											
-										</div>
-										<div class="col-md-6 cap-right wow fadeInUpBig animated" data-wow-delay="0.4s">
-											<h3>标语标题二标语标题二</h3>
-										</div>
-										<div class="clearfix"></div>
-									</div>
-									
-								</li>
-								<li>
-									<div class="caption">
-										<div class="col-md-6 cap-left wow fadeInDownBig animated" data-wow-delay="0.4s">
-											<p>标语标题三标语标题三标语标题三标语标题三标语标题三标语标题三标语标题三标语标题三标语标题三标语标题三标语标题三标语标题三</p>
-										</div>
-										<div class="col-md-6 cap-right wow fadeInUpBig animated" data-wow-delay="0.4s">
-											<h3>标语标题三标语标题三</h3>
-										</div>
-										<div class="clearfix"></div>
-									</div>
-									
-								</li>
-							</ul>
+										</li>
+									</ul>
+								</div>
+							</div>
 						</div>
 					</div>
+					<!--banner-->
+				</div>
+				<div class="swiper-slide swiper-slide2">
+					<!--train-->
+					<div class="train w3-agile">
+						<div class="container">
+							<h2 class="ani" swiper-animate-effect="fadeInDownBig" swiper-animate-duration="0.5s" swiper-animate-delay="0.4s"><img src="images/equipment_title.png" alt=""></h2>
+							<div class="train-grids">
+								<div class="col-md-3 train-grid ani" swiper-animate-effect="fadeInDownBig" swiper-animate-duration="0.5s" swiper-animate-delay="0.4s">
+									<div class="train-top hvr-bounce-to-right">
+										<div class="train-img">
+											<img src="picture/e1.png"/>
+										</div>
+										<h4>器材名称</h4>
+										<p class="category-count">
+											<span class="btn btn-primary">
+											  库存量 <b class="badge">4</b>
+											</span>
+										</p>
+										<div class="list-group latest">
+										  <a href="#" class="list-group-item">最新入库</a>
+										  <a href="#" class="list-group-item">最多人赞</a>
+										  <a href="#" class="list-group-item">评价最高</a>
+										</div>
+										<div class="btn_news_more category-view-more">
+											<a href="index.php?id=news" title="新闻资讯" class="btn">查看更多</a>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-3 train-grid ani" swiper-animate-effect="fadeInDownBig" swiper-animate-duration="0.5s" swiper-animate-delay="0.5s">
+									<div class="train-top hvr-bounce-to-right">
+										<div class="train-img">
+											<img src="picture/e1.png"/>
+										</div>
+										<h4>器材名称</h4>
+										<p class="category-count">
+											<span class="btn btn-primary">
+											  库存量 <b class="badge">4</b>
+											</span>
+										</p>
+										<div class="list-group latest">
+										  <a href="#" class="list-group-item">最新入库</a>
+										  <a href="#" class="list-group-item">最多人赞</a>
+										  <a href="#" class="list-group-item">评价最高</a>
+										</div>
+										<div class="btn_news_more category-view-more">
+											<a href="index.php?id=news" title="新闻资讯" class="btn">查看更多</a>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-3 train-grid ani" swiper-animate-effect="fadeInDownBig" swiper-animate-duration="0.6s" swiper-animate-delay="0.6s">
+									<div class="train-top hvr-bounce-to-right">
+										<div class="train-img">
+											<img src="picture/e1.png"/>
+										</div>
+										<h4>器材名称</h4>
+										<p class="category-count">
+											<span class="btn btn-primary">
+											  库存量 <b class="badge">4</b>
+											</span>
+										</p>
+										<div class="list-group latest">
+										  <a href="#" class="list-group-item">最新入库</a>
+										  <a href="#" class="list-group-item">最多人赞</a>
+										  <a href="#" class="list-group-item">评价最高</a>
+										</div>
+										<div class="btn_news_more category-view-more">
+											<a href="index.php?id=news" title="新闻资讯" class="btn">查看更多</a>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-3 train-grid ani" swiper-animate-effect="fadeInDownBig" swiper-animate-duration="0.5s" swiper-animate-delay="0.7s">
+									<div class="train-top hvr-bounce-to-right">
+										<div class="train-img">
+											<img src="picture/e1.png"/>
+										</div>
+										<h4>器材名称</h4>
+										<p class="category-count">
+											<span class="btn btn-primary">
+											  库存量 <b class="badge">4</b>
+											</span>
+										</p>
+										<div class="list-group latest">
+										  <a href="#" class="list-group-item">最新入库</a>
+										  <a href="#" class="list-group-item">最多人赞</a>
+										  <a href="#" class="list-group-item">评价最高</a>
+										</div>
+										<div class="btn_news_more category-view-more">
+											<a href="index.php?id=news" title="新闻资讯" class="btn">查看更多</a>
+										</div>
+									</div>
+								</div>
+								<div class="clearfix"></div>
+							</div>
+							<div class="train-grids">
+								<div class="col-md-3 train-grid ani" swiper-animate-effect="fadeInDownBig" swiper-animate-duration="0.5s" swiper-animate-delay="0.4s">
+									<div class="train-top hvr-bounce-to-right">
+										<div class="train-img">
+											<img src="picture/e1.png"/>
+										</div>
+										<h4>器材名称</h4>
+										<p class="category-count">
+											<span class="btn btn-primary">
+											  库存量 <b class="badge">4</b>
+											</span>
+										</p>
+										<div class="list-group latest">
+										  <a href="#" class="list-group-item">最新入库</a>
+										  <a href="#" class="list-group-item">最多人赞</a>
+										  <a href="#" class="list-group-item">评价最高</a>
+										</div>
+										<div class="btn_news_more category-view-more">
+											<a href="index.php?id=news" title="新闻资讯" class="btn">查看更多</a>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-3 train-grid ani" swiper-animate-effect="fadeInDownBig" swiper-animate-duration="0.5s" swiper-animate-delay="0.5s">
+									<div class="train-top hvr-bounce-to-right">
+										<div class="train-img">
+											<img src="picture/e1.png"/>
+										</div>
+										<h4>器材名称</h4>
+										<p class="category-count">
+											<span class="btn btn-primary">
+											  库存量 <b class="badge">4</b>
+											</span>
+										</p>
+										<div class="list-group latest">
+										  <a href="#" class="list-group-item">最新入库</a>
+										  <a href="#" class="list-group-item">最多人赞</a>
+										  <a href="#" class="list-group-item">评价最高</a>
+										</div>
+										<div class="btn_news_more category-view-more">
+											<a href="index.php?id=news" title="新闻资讯" class="btn">查看更多</a>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-3 train-grid ani" swiper-animate-effect="fadeInDownBig" swiper-animate-duration="0.6s" swiper-animate-delay="0.6s">
+									<div class="train-top hvr-bounce-to-right">
+										<div class="train-img">
+											<img src="picture/e1.png"/>
+										</div>
+										<h4>器材名称</h4>
+										<p class="category-count">
+											<span class="btn btn-primary">
+											  库存量 <b class="badge">4</b>
+											</span>
+										</p>
+										<div class="list-group latest">
+										  <a href="#" class="list-group-item">最新入库</a>
+										  <a href="#" class="list-group-item">最多人赞</a>
+										  <a href="#" class="list-group-item">评价最高</a>
+										</div>
+										<div class="btn_news_more category-view-more">
+											<a href="index.php?id=news" title="新闻资讯" class="btn">查看更多</a>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-3 train-grid ani" swiper-animate-effect="fadeInDownBig" swiper-animate-duration="0.5s" swiper-animate-delay="0.7s">
+									<div class="train-top hvr-bounce-to-right">
+										<div class="train-img">
+											<img src="picture/e1.png"/>
+										</div>
+										<h4>器材名称</h4>
+										<p class="category-count">
+											<span class="btn btn-primary">
+											  库存量 <b class="badge">4</b>
+											</span>
+										</p>
+										<div class="list-group latest">
+										  <a href="#" class="list-group-item">最新入库</a>
+										  <a href="#" class="list-group-item">最多人赞</a>
+										  <a href="#" class="list-group-item">评价最高</a>
+										</div>
+										<div class="btn_news_more category-view-more">
+											<a href="index.php?id=news" title="新闻资讯" class="btn">查看更多</a>
+										</div>
+									</div>
+								</div>
+								<div class="clearfix"></div>
+							</div>
+						</div>
+					</div>
+					<!--train-->
+				</div>
+				<div class="swiper-slide swiper-slide3">
+					<!--testimonials-->
+					<div class="testimonials-section" >
+						<div class="container">
+							<h2 class="ani ts" swiper-animate-effect="fadeInDownBig" swiper-animate-duration="0.5s" swiper-animate-delay="0.4s" style="text-align:center;"><img src="images/hot_equipment_title.png"></h2>
+							
+							<div class="testimonials-grids ani" swiper-animate-effect="fadeInUp" swiper-animate-duration="0.5s" swiper-animate-delay="0.4s">
+								<div class="col-md-2 testimonials-grid1 test1 ani" swiper-animate-effect="fadeInDownBig" swiper-animate-duration="0.5s" swiper-animate-delay="0.4s" style="visibility: visible;">
+									<img src="picture/t1.png" class="img-responsive" alt="">
+								</div>
+								<div class="col-md-7 testimonials-grid  ani" swiper-animate-effect="fadeInRight" swiper-animate-duration="0.5s" swiper-animate-delay="0.4s" style="visibility: visible;">
+									<h5><a href="">这是器材的标题</a></h5>
+									<p class="statement">这是器材的说明这是器材的说明这是器材的说明这是器材的说明这是器材的说明这是说明这是说明这是材的说明这是说明这是说明这是器材的说明&nbsp;&nbsp;<a href="">>>详细</a></p>
+									<p class="extra">
+										<i class="glyphicon glyphicon-tags"></i><span><b><a href="">标签一</a></b><b><a href="">标签二</a></b><b><a href="">标签三</a></b></span>
+									</p>
+									<p class="extra">
+										<i class="glyphicon glyphicon-eye-open"></i><span>111</span>
+										<i class="glyphicon glyphicon-time"></i><span>2016-9-3 2:29:28</span>
+										<i class="glyphicon glyphicon-th-list"></i><span><b><a href="">这是分类名</a></b></span>
+									</p>
+								</div>
+								<div class="col-md-3 testimonials-grid ani" swiper-animate-effect="fadeInRight" swiper-animate-duration="0.5s" swiper-animate-delay="0.4s" style="visibility: visible;">
+									<h5>&nbsp;</h5>
+									<dl class="rating">
+										<dd>速度&nbsp;&nbsp;&nbsp;</dd>
+										<dt>
+											<div class="progress">
+												<div class="progress-bar progress-bar-success" aria-valuenow="3" aria-valuemin="0" aria-valuemax="10"  style="width: 30%">3</div>
+											</div>
+										</dt>
+										
+										<dd>自旋&nbsp;&nbsp;&nbsp;</dd>
+										<dt>
+											<div class="progress">
+												<div class="progress-bar progress-bar-warning" aria-valuenow="6" aria-valuemin="0" aria-valuemax="10" style="width: 60%">6</div>
+											</div>
+										</dt>
+										<dd>控制&nbsp;&nbsp;&nbsp;</dd>
+										<dt>
+											<div class="progress">
+												<div class="progress-bar progress-bar-info" aria-valuenow="8" aria-valuemin="0" aria-valuemax="10" style="width: 80%">8</div>
+											</div>
+										</dt>
+										<dd>总体&nbsp;&nbsp;&nbsp;</dd>
+										<dt>
+											<div class="progress">
+												<div class="progress-bar progress-bar-danger" aria-valuenow="7" aria-valuemin="0" aria-valuemax="10" style="width: 70%">7</div>
+											</div>
+										</dt>
+									</dl>
+									
+									
+								</div>
+								<div class="clearfix"></div>
+							</div>
+
+							<div class="testimonials-grids ani" swiper-animate-effect="fadeInUp" swiper-animate-duration="0.5s" swiper-animate-delay="0.6s">
+								<div class="col-md-2 testimonials-grid1 test1 ani" swiper-animate-effect="fadeInDownBig" swiper-animate-duration="0.5s" swiper-animate-delay="0.4s" style="visibility: visible;">
+									<img src="picture/t1.png" class="img-responsive" alt="">
+								</div>
+								<div class="col-md-7 testimonials-grid  ani" swiper-animate-effect="fadeInRight" swiper-animate-duration="0.5s" swiper-animate-delay="0.4s" style="visibility: visible;">
+									<h5><a href="">这是器材的标题</a></h5>
+									<p class="statement">这是器材的说明这是器材的说明这是器材的说明这是器材的说明这是器材的说明这是说明这是说明这是材的说明这是说明这是说明这是器材的说明&nbsp;&nbsp;<a href="">>>详细</a></p>
+									<p class="extra">
+										<i class="glyphicon glyphicon-tags"></i><span><b><a href="">标签一</a></b><b><a href="">标签二</a></b><b><a href="">标签三</a></b></span>
+									</p>
+									<p class="extra">
+										<i class="glyphicon glyphicon-eye-open"></i><span>111</span>
+										<i class="glyphicon glyphicon-time"></i><span>2016-9-3 2:29:28</span>
+										<i class="glyphicon glyphicon-th-list"></i><span><b><a href="">这是分类名</a></b></span>
+									</p>
+								</div>
+								<div class="col-md-3 testimonials-grid ani" swiper-animate-effect="fadeInRight" swiper-animate-duration="0.5s" swiper-animate-delay="0.4s" style="visibility: visible;">
+									<h5>&nbsp;</h5>
+									<dl class="rating">
+										<dd>速度&nbsp;&nbsp;&nbsp;</dd>
+										<dt>
+											<div class="progress">
+												<div class="progress-bar progress-bar-success" aria-valuenow="3" aria-valuemin="0" aria-valuemax="10"  style="width: 30%">3</div>
+											</div>
+										</dt>
+										
+										<dd>自旋&nbsp;&nbsp;&nbsp;</dd>
+										<dt>
+											<div class="progress">
+												<div class="progress-bar progress-bar-warning" aria-valuenow="6" aria-valuemin="0" aria-valuemax="10" style="width: 60%">6</div>
+											</div>
+										</dt>
+										<dd>控制&nbsp;&nbsp;&nbsp;</dd>
+										<dt>
+											<div class="progress">
+												<div class="progress-bar progress-bar-info" aria-valuenow="8" aria-valuemin="0" aria-valuemax="10" style="width: 80%">8</div>
+											</div>
+										</dt>
+										<dd>总体&nbsp;&nbsp;&nbsp;</dd>
+										<dt>
+											<div class="progress">
+												<div class="progress-bar progress-bar-danger" aria-valuenow="7" aria-valuemin="0" aria-valuemax="10" style="width: 70%">7</div>
+											</div>
+										</dt>
+									</dl>
+									
+									
+								</div>
+								<div class="clearfix"></div>
+							</div>
+
+							<div class="testimonials-grids ani" swiper-animate-effect="fadeInUp" swiper-animate-duration="0.5s" swiper-animate-delay="0.8s">
+								<div class="col-md-2 testimonials-grid1 test1 ani" swiper-animate-effect="fadeInDownBig" swiper-animate-duration="0.5s" swiper-animate-delay="0.4s" style="visibility: visible;">
+									<img src="picture/t1.png" class="img-responsive" alt="">
+								</div>
+								<div class="col-md-7 testimonials-grid  ani" swiper-animate-effect="fadeInRight" swiper-animate-duration="0.5s" swiper-animate-delay="0.4s" style="visibility: visible;">
+									<h5><a href="">这是器材的标题</a></h5>
+									<p class="statement">这是器材的说明这是器材的说明这是器材的说明这是器材的说明这是器材的说明这是说明这是说明这是材的说明这是说明这是说明这是器材的说明&nbsp;&nbsp;<a href="">>>详细</a></p>
+									<p class="extra">
+										<i class="glyphicon glyphicon-tags"></i><span><b><a href="">标签一</a></b><b><a href="">标签二</a></b><b><a href="">标签三</a></b></span>
+									</p>
+									<p class="extra">
+										<i class="glyphicon glyphicon-eye-open"></i><span>111</span>
+										<i class="glyphicon glyphicon-time"></i><span>2016-9-3 2:29:28</span>
+										<i class="glyphicon glyphicon-th-list"></i><span><b><a href="">这是分类名</a></b></span>
+									</p>
+								</div>
+								<div class="col-md-3 testimonials-grid ani" swiper-animate-effect="fadeInRight" swiper-animate-duration="0.5s" swiper-animate-delay="0.4s" style="visibility: visible;">
+									<h5>&nbsp;</h5>
+									<dl class="rating">
+										<dd>速度&nbsp;&nbsp;&nbsp;</dd>
+										<dt>
+											<div class="progress">
+												<div class="progress-bar progress-bar-success" aria-valuenow="3" aria-valuemin="0" aria-valuemax="10"  style="width: 30%">3</div>
+											</div>
+										</dt>
+										
+										<dd>自旋&nbsp;&nbsp;&nbsp;</dd>
+										<dt>
+											<div class="progress">
+												<div class="progress-bar progress-bar-warning" aria-valuenow="6" aria-valuemin="0" aria-valuemax="10" style="width: 60%">6</div>
+											</div>
+										</dt>
+										<dd>控制&nbsp;&nbsp;&nbsp;</dd>
+										<dt>
+											<div class="progress">
+												<div class="progress-bar progress-bar-info" aria-valuenow="8" aria-valuemin="0" aria-valuemax="10" style="width: 80%">8</div>
+											</div>
+										</dt>
+										<dd>总体&nbsp;&nbsp;&nbsp;</dd>
+										<dt>
+											<div class="progress">
+												<div class="progress-bar progress-bar-danger" aria-valuenow="7" aria-valuemin="0" aria-valuemax="10" style="width: 70%">7</div>
+											</div>
+										</dt>
+									</dl>
+									
+									
+								</div>
+								<div class="clearfix"></div>
+							</div>
+							
+							
+						</div>
+					</div>
+					<!--testimonials-->
+				</div>
+				<div class="swiper-slide swiper-slide4">	
+
+					<!--copy-->
+					<div class="copy-section">
+						<div class="container ani" swiper-animate-effect="fadeInDownBig" swiper-animate-duration="0.5s" swiper-animate-delay="0.4s">
+							<div class="social-icons">
+								<a href="#"><i class="icon"></i></a>
+								<a href="#"><i class="icon1"></i></a>
+								<a href="#"><i class="icon2"></i></a>
+								<a href="#"><i class="icon3"></i></a>
+							</div>
+							<p>Copyright &copy; 2016.Company name All rights reserved.</p>
+						</div>
+					</div>
+					<!--copy-->
 				</div>
 			</div>
-			<!--banner-->
-			<!--content-->
-			<div class="content">
-				<!--train-->
-				<div class="train w3-agile">
-					<div class="container">
-						<h2 class="wow fadeInDownBig animated" data-wow-delay="0.4s"><img src="images/equipment_title.png" alt=""></h2>
-						<div class="train-grids">
-							<div class="col-md-3 train-grid wow fadeInDownBig animated" data-wow-delay="0.4s">
-								<div class="train-top hvr-bounce-to-right">
-									<div class="train-img">
-										<img src="picture/e1.png"/>
-									</div>
-									<h4>器材名称</h4>
-									<p class="category-count">
-										<span class="btn btn-primary">
-										  库存量 <b class="badge">4</b>
-										</span>
-									</p>
-									<div class="list-group latest">
-									  <a href="#" class="list-group-item">最新入库</a>
-									  <a href="#" class="list-group-item">最多人赞</a>
-									  <a href="#" class="list-group-item">评价最高</a>
-									</div>
-									<div class="btn_news_more category-view-more">
-										<a href="index.php?id=news" title="新闻资讯" class="btn">查看更多</a>
-									</div>
-								</div>
-							</div>
-							<div class="col-md-3 train-grid wow fadeInDownBig animated" data-wow-delay="0.5s">
-								<div class="train-top hvr-bounce-to-right">
-									<div class="train-img">
-										<img src="picture/e1.png"/>
-									</div>
-									<h4>器材名称</h4>
-									<p class="category-count">
-										<span class="btn btn-primary">
-										  库存量 <b class="badge">4</b>
-										</span>
-									</p>
-									<div class="list-group latest">
-									  <a href="#" class="list-group-item">最新入库</a>
-									  <a href="#" class="list-group-item">最多人赞</a>
-									  <a href="#" class="list-group-item">评价最高</a>
-									</div>
-									<div class="btn_news_more category-view-more">
-										<a href="index.php?id=news" title="新闻资讯" class="btn">查看更多</a>
-									</div>
-								</div>
-							</div>
-							<div class="col-md-3 train-grid wow fadeInDownBig animated" data-wow-delay="0.6s">
-								<div class="train-top hvr-bounce-to-right">
-									<div class="train-img">
-										<img src="picture/e1.png"/>
-									</div>
-									<h4>器材名称</h4>
-									<p class="category-count">
-										<span class="btn btn-primary">
-										  库存量 <b class="badge">4</b>
-										</span>
-									</p>
-									<div class="list-group latest">
-									  <a href="#" class="list-group-item">最新入库</a>
-									  <a href="#" class="list-group-item">最多人赞</a>
-									  <a href="#" class="list-group-item">评价最高</a>
-									</div>
-									<div class="btn_news_more category-view-more">
-										<a href="index.php?id=news" title="新闻资讯" class="btn">查看更多</a>
-									</div>
-								</div>
-							</div>
-							<div class="col-md-3 train-grid wow fadeInDownBig animated" data-wow-delay="0.7s">
-								<div class="train-top hvr-bounce-to-right">
-									<div class="train-img">
-										<img src="picture/e1.png"/>
-									</div>
-									<h4>器材名称</h4>
-									<p class="category-count">
-										<span class="btn btn-primary">
-										  库存量 <b class="badge">4</b>
-										</span>
-									</p>
-									<div class="list-group latest">
-									  <a href="#" class="list-group-item">最新入库</a>
-									  <a href="#" class="list-group-item">最多人赞</a>
-									  <a href="#" class="list-group-item">评价最高</a>
-									</div>
-									<div class="btn_news_more category-view-more">
-										<a href="index.php?id=news" title="新闻资讯" class="btn">查看更多</a>
-									</div>
-								</div>
-							</div>
-							<div class="clearfix"></div>
-						</div>
-						<div class="train-grids">
-							<div class="col-md-3 train-grid wow fadeInUpBig animated" data-wow-delay="0.4s">
-								<div class="train-top hvr-bounce-to-right">
-									<div class="train-img">
-										<img src="picture/e1.png"/>
-									</div>
-									<h4>器材名称</h4>
-									<p class="category-count">
-										<span class="btn btn-primary">
-										  库存量 <b class="badge">4</b>
-										</span>
-									</p>
-									<div class="list-group latest">
-									  <a href="#" class="list-group-item">最新入库</a>
-									  <a href="#" class="list-group-item">最多人赞</a>
-									  <a href="#" class="list-group-item">评价最高</a>
-									</div>
-									<div class="btn_news_more category-view-more">
-										<a href="index.php?id=news" title="新闻资讯" class="btn">查看更多</a>
-									</div>
-								</div>
-							</div>
-							<div class="col-md-3 train-grid wow fadeInUpBig animated" data-wow-delay="0.5s">
-								<div class="train-top hvr-bounce-to-right">
-									<div class="train-img">
-										<img src="picture/e1.png"/>
-									</div>
-									<h4>器材名称</h4>
-									<p class="category-count">
-										<span class="btn btn-primary">
-										  库存量 <b class="badge">4</b>
-										</span>
-									</p>
-									<div class="list-group latest">
-									  <a href="#" class="list-group-item">最新入库</a>
-									  <a href="#" class="list-group-item">最多人赞</a>
-									  <a href="#" class="list-group-item">评价最高</a>
-									</div>
-									<div class="btn_news_more category-view-more">
-										<a href="index.php?id=news" title="新闻资讯" class="btn">查看更多</a>
-									</div>
-								</div>
-							</div>
-							<div class="col-md-3 train-grid wow fadeInUpBig animated" data-wow-delay="0.6s">
-								<div class="train-top hvr-bounce-to-right">
-									<div class="train-img">
-										<img src="picture/e1.png"/>
-									</div>
-									<h4>器材名称</h4>
-									<p class="category-count">
-										<span class="btn btn-primary">
-										  库存量 <b class="badge">4</b>
-										</span>
-									</p>
-									<div class="list-group latest">
-									  <a href="#" class="list-group-item">最新入库</a>
-									  <a href="#" class="list-group-item">最多人赞</a>
-									  <a href="#" class="list-group-item">评价最高</a>
-									</div>
-									<div class="btn_news_more category-view-more">
-										<a href="index.php?id=news" title="新闻资讯" class="btn">查看更多</a>
-									</div>
-								</div>
-							</div>
-							<div class="col-md-3 train-grid wow fadeInUpBig animated" data-wow-delay="0.7s">
-								<div class="train-top hvr-bounce-to-right">
-									<div class="train-img">
-										<img src="picture/e1.png"/>
-									</div>
-									<h4>器材名称</h4>
-									<p class="category-count">
-										<span class="btn btn-primary">
-										  库存量 <b class="badge">4</b>
-										</span>
-									</p>
-									<div class="list-group latest">
-									  <a href="#" class="list-group-item">最新入库</a>
-									  <a href="#" class="list-group-item">最多人赞</a>
-									  <a href="#" class="list-group-item">评价最高</a>
-									</div>
-									<div class="btn_news_more category-view-more">
-										<a href="index.php?id=news" title="新闻资讯" class="btn">查看更多</a>
-									</div>
-								</div>
-							</div>
-							<div class="clearfix"></div>
-						</div>
-					</div>
-				</div>
-				<!--train-->
-				
-				<!--testimonials-->
-				<div class="testimonials-section" >
-					<div class="container">
-						<h2 class="wow fadeInDownBig animated" data-wow-delay="0.4s" style="text-align:center;"><img src="images/hot_equipment_title.png"></h2>
-						<div class="testimonials-grids wow fadeInLeft animated" data-wow-delay="0.4s">
-							<div class="col-md-2 testimonials-grid1 test1 wow fadeInDownBig animated" data-wow-delay="0.4s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInDownBig;">
-								<img src="picture/t1.png" class="img-responsive" alt="">
-							</div>
-							<div class="col-md-7 testimonials-grid wow fadeInRight animated" data-wow-delay="0.4s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInRight;">
-								<h5><a href="">这是器材的标题</a></h5>
-								<p class="statement">这是器材的说明这是器材的说明这是器材的说明这是器材的说明这是器材的说明这是说明这是说明这是材的说明这是说明这是说明这是器材的说明&nbsp;&nbsp;<a href="">>>详细</a></p>
-								<p class="extra">
-									<i class="glyphicon glyphicon-tags"></i><span><b><a href="">标签一</a></b><b><a href="">标签二</a></b><b><a href="">标签三</a></b></span>
-								</p>
-								<p class="extra">
-									<i class="glyphicon glyphicon-eye-open"></i><span>111</span>
-									<i class="glyphicon glyphicon-time"></i><span>2016-9-3 2:29:28</span>
-									<i class="glyphicon glyphicon-th-list"></i><span><b><a href="">这是分类名</a></b></span>
-								</p>
-							</div>
-							<div class="col-md-3 testimonials-grid wow fadeInRight animated" data-wow-delay="0.4s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInRight;">
-								<h5>&nbsp;</h5>
-								<dl class="rating">
-									<dd>速度&nbsp;&nbsp;&nbsp;</dd>
-									<dt>
-										<div class="progress">
-											<div class="progress-bar progress-bar-success" aria-valuenow="3" aria-valuemin="0" aria-valuemax="10"  style="width: 30%">3</div>
-										</div>
-									</dt>
-									
-									<dd>自旋&nbsp;&nbsp;&nbsp;</dd>
-									<dt>
-										<div class="progress">
-											<div class="progress-bar progress-bar-warning" aria-valuenow="6" aria-valuemin="0" aria-valuemax="10" style="width: 60%">6</div>
-										</div>
-									</dt>
-									<dd>控制&nbsp;&nbsp;&nbsp;</dd>
-									<dt>
-										<div class="progress">
-											<div class="progress-bar progress-bar-info" aria-valuenow="8" aria-valuemin="0" aria-valuemax="10" style="width: 80%">8</div>
-										</div>
-									</dt>
-									<dd>总体&nbsp;&nbsp;&nbsp;</dd>
-									<dt>
-										<div class="progress">
-											<div class="progress-bar progress-bar-danger" aria-valuenow="7" aria-valuemin="0" aria-valuemax="10" style="width: 70%">7</div>
-										</div>
-									</dt>
-								</dl>
-								
-								
-							</div>
-							<div class="clearfix"></div>
-						</div>
-
-						<div class="testimonials-grids wow fadeInLeft animated" data-wow-delay="0.4s">
-							<div class="col-md-2 testimonials-grid1 test1 wow fadeInDownBig animated" data-wow-delay="0.4s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInDownBig;">
-								<img src="picture/t1.png" class="img-responsive" alt="">
-							</div>
-							<div class="col-md-7 testimonials-grid wow fadeInRight animated" data-wow-delay="0.4s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInRight;">
-								<h5><a href="">这是器材的标题</a></h5>
-								<p class="statement">这是器材的说明这是器材的说明这是器材的说明这是器材的说明这是器材的说明这是说明这是说明这是材的说明这是说明这是说明这是器材的说明&nbsp;&nbsp;<a href="">>>详细</a></p>
-								<p class="extra">
-									<i class="glyphicon glyphicon-tags"></i><span><b><a href="">标签一</a></b><b><a href="">标签二</a></b><b><a href="">标签三</a></b></span>
-								</p>
-								<p class="extra">
-									<i class="glyphicon glyphicon-eye-open"></i><span>111</span>
-									<i class="glyphicon glyphicon-time"></i><span>2016-9-3 2:29:28</span>
-									<i class="glyphicon glyphicon-th-list"></i><span><b><a href="">这是分类名</a></b></span>
-								</p>
-							</div>
-							<div class="col-md-3 testimonials-grid wow fadeInRight animated" data-wow-delay="0.4s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInRight;">
-								<h5>&nbsp;</h5>
-								<dl class="rating">
-									<dd>速度&nbsp;&nbsp;&nbsp;</dd>
-									<dt>
-										<div class="progress">
-											<div class="progress-bar progress-bar-success" aria-valuenow="3" aria-valuemin="0" aria-valuemax="10"  style="width: 30%">3</div>
-										</div>
-									</dt>
-									
-									<dd>自旋&nbsp;&nbsp;&nbsp;</dd>
-									<dt>
-										<div class="progress">
-											<div class="progress-bar progress-bar-warning" aria-valuenow="6" aria-valuemin="0" aria-valuemax="10" style="width: 60%">6</div>
-										</div>
-									</dt>
-									<dd>控制&nbsp;&nbsp;&nbsp;</dd>
-									<dt>
-										<div class="progress">
-											<div class="progress-bar progress-bar-info" aria-valuenow="8" aria-valuemin="0" aria-valuemax="10" style="width: 80%">8</div>
-										</div>
-									</dt>
-									<dd>总体&nbsp;&nbsp;&nbsp;</dd>
-									<dt>
-										<div class="progress">
-											<div class="progress-bar progress-bar-danger" aria-valuenow="7" aria-valuemin="0" aria-valuemax="10" style="width: 70%">7</div>
-										</div>
-									</dt>
-								</dl>
-								
-								
-							</div>
-							<div class="clearfix"></div>
-						</div>
-
-						<div class="testimonials-grids wow fadeInLeft animated" data-wow-delay="0.4s">
-							<div class="col-md-2 testimonials-grid1 test1 wow fadeInDownBig animated" data-wow-delay="0.4s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInDownBig;">
-								<img src="picture/t1.png" class="img-responsive" alt="">
-							</div>
-							<div class="col-md-7 testimonials-grid wow fadeInRight animated" data-wow-delay="0.4s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInRight;">
-								<h5><a href="">这是器材的标题</a></h5>
-								<p class="statement">这是器材的说明这是器材的说明这是器材的说明这是器材的说明这是器材的说明这是说明这是说明这是材的说明这是说明这是说明这是器材的说明&nbsp;&nbsp;<a href="">>>详细</a></p>
-								<p class="extra">
-									<i class="glyphicon glyphicon-tags"></i><span><b><a href="">标签一</a></b><b><a href="">标签二</a></b><b><a href="">标签三</a></b></span>
-								</p>
-								<p class="extra">
-									<i class="glyphicon glyphicon-eye-open"></i><span>111</span>
-									<i class="glyphicon glyphicon-time"></i><span>2016-9-3 2:29:28</span>
-									<i class="glyphicon glyphicon-th-list"></i><span><b><a href="">这是分类名</a></b></span>
-								</p>
-							</div>
-							<div class="col-md-3 testimonials-grid wow fadeInRight animated" data-wow-delay="0.4s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInRight;">
-								<h5>&nbsp;</h5>
-								<dl class="rating">
-									<dd>速度&nbsp;&nbsp;&nbsp;</dd>
-									<dt>
-										<div class="progress">
-											<div class="progress-bar progress-bar-success" aria-valuenow="3" aria-valuemin="0" aria-valuemax="10"  style="width: 30%">3</div>
-										</div>
-									</dt>
-									
-									<dd>自旋&nbsp;&nbsp;&nbsp;</dd>
-									<dt>
-										<div class="progress">
-											<div class="progress-bar progress-bar-warning" aria-valuenow="6" aria-valuemin="0" aria-valuemax="10" style="width: 60%">6</div>
-										</div>
-									</dt>
-									<dd>控制&nbsp;&nbsp;&nbsp;</dd>
-									<dt>
-										<div class="progress">
-											<div class="progress-bar progress-bar-info" aria-valuenow="8" aria-valuemin="0" aria-valuemax="10" style="width: 80%">8</div>
-										</div>
-									</dt>
-									<dd>总体&nbsp;&nbsp;&nbsp;</dd>
-									<dt>
-										<div class="progress">
-											<div class="progress-bar progress-bar-danger" aria-valuenow="7" aria-valuemin="0" aria-valuemax="10" style="width: 70%">7</div>
-										</div>
-									</dt>
-								</dl>
-								
-								
-							</div>
-							<div class="clearfix"></div>
-						</div>
-						
-						
-					</div>
-				</div>
-				<!--testimonials-->
-
-				
-				<!--footer-->
-				<div class="footer-section">
-					<div class="container">
-						<div class="footer-grids">
-							<div class="col-md-3 footer-grid wow fadeInDownBig animated" data-wow-delay="0.4s">
-								<h4>关于我们</h4>
-								<p>关于我们关于我们关于我们关于我们关于我们关于我们关于我们关于我们关于我们关于我们关于我们关于我们关于我们关于我们</p>
-							</div>
-							<div class="col-md-3 footer-grid wow fadeInLeft animated" data-wow-delay="0.4s">
-								<h4>最新器材</h4>
-								<ul>
-									<li><a href="">器材名称</a></li>
-									<li><a href="">器材名称</a></li>
-									<li><a href="">器材名称</a></li>
-									<li><a href="">器材名称</a></li>
-									<li><a href="">器材名称</a></li>
-								</ul>
-							</div>
-							<div class="col-md-3 footer-grid wow fadeInUpBig animated" data-wow-delay="0.4s">
-								<h4>最新资讯</h4>
-								<ul>
-									<li><a href="">资讯标题</a></li>
-									<li><a href="">资讯标题</a></li>
-									<li><a href="">资讯标题</a></li>
-									<li><a href="">资讯标题</a></li>
-									<li><a href="">资讯标题</a></li>
-								</ul>
-							</div>
-							<div class="col-md-3 footer-grid wow fadeInRight animated" data-wow-delay="0.4s">
-								<h4>联系我们</h4>
-								<p><i class="glyphicon glyphicon-earphone" aria-hidden="true"></i> 0041-456-3692</p>
-								<p><i class="glyphicon glyphicon-phone" aria-hidden="true"></i> 0200-123-4567</p>
-								<p><i class="glyphicon glyphicon-envelope" aria-hidden="true"></i>  <a href="#"></a><a href="mailto:info@example.com">info@example.com</a></p>
-								<p><i class="glyphicon glyphicon-print" aria-hidden="true"></i> 0091-789-456100</p>
-								<p><i class="glyphicon glyphicon-map-marker" aria-hidden="true"></i> 地址地址地址地址</p>
-							</div>
-							<div class="clearfix"></div>
-						</div>
-					</div>
-				</div>
-				<!--footer-->
-				<!--copy-->
-				<div class="copy-section wow fadeInDownBig animated" data-wow-delay="0.4s">
-					<div class="container">
-						<div class="social-icons">
-							<a href="#"><i class="icon"></i></a>
-							<a href="#"><i class="icon1"></i></a>
-							<a href="#"><i class="icon2"></i></a>
-							<a href="#"><i class="icon3"></i></a>
-						</div>
-						<p>Copyright &copy; 2016.Company name All rights reserved.</p>
-					</div>
-				</div>
-				<!--copy-->
-			</body>
-		</html>
+		</div>
+	</body>
+</html>
