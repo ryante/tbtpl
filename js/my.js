@@ -103,73 +103,73 @@ $(document).ready(function(){
 // 		$("#imageMenu ul").stop(false, true).animate({"marginLeft" : -curIndex*interval + "px"}, 600);
 // 	});
 	
-// 	// 解决 ie6 select框 问题
-// 	$.fn.decorateIframe = function(options) {
-//         if ($.browser.msie && $.browser.version < 7) {
-//             var opts = $.extend({}, $.fn.decorateIframe.defaults, options);
-//             $(this).each(function() {
-//                 var $myThis = $(this);
-//                 //创建一个IFRAME
-//                 var divIframe = $("<iframe />");
-//                 divIframe.attr("id", opts.iframeId);
-//                 divIframe.css("position", "absolute");
-//                 divIframe.css("display", "none");
-//                 divIframe.css("display", "block");
-//                 divIframe.css("z-index", opts.iframeZIndex);
-//                 divIframe.css("border");
-//                 divIframe.css("top", "0");
-//                 divIframe.css("left", "0");
-//                 if (opts.width == 0) {
-//                     divIframe.css("width", $myThis.width() + parseInt($myThis.css("padding")) * 2 + "px");
-//                 }
-//                 if (opts.height == 0) {
-//                     divIframe.css("height", $myThis.height() + parseInt($myThis.css("padding")) * 2 + "px");
-//                 }
-//                 divIframe.css("filter", "mask(color=#fff)");
-//                 $myThis.append(divIframe);
-//             });
-//         }
-//     }
-//     $.fn.decorateIframe.defaults = {
-//         iframeId: "decorateIframe1",
-//         iframeZIndex: -1,
-//         width: 0,
-//         height: 0
-//     }
-//     //放大镜视窗
-//     $("#bigView").decorateIframe();
+	// // 解决 ie6 select框 问题
+	// $.fn.decorateIframe = function(options) {
+ //        if ($.browser.msie && $.browser.version < 7) {
+ //            var opts = $.extend({}, $.fn.decorateIframe.defaults, options);
+ //            $(this).each(function() {
+ //                var $myThis = $(this);
+ //                //创建一个IFRAME
+ //                var divIframe = $("<iframe />");
+ //                divIframe.attr("id", opts.iframeId);
+ //                divIframe.css("position", "absolute");
+ //                divIframe.css("display", "none");
+ //                divIframe.css("display", "block");
+ //                divIframe.css("z-index", opts.iframeZIndex);
+ //                divIframe.css("border");
+ //                divIframe.css("top", "0");
+ //                divIframe.css("left", "0");
+ //                if (opts.width == 0) {
+ //                    divIframe.css("width", $myThis.width() + parseInt($myThis.css("padding")) * 2 + "px");
+ //                }
+ //                if (opts.height == 0) {
+ //                    divIframe.css("height", $myThis.height() + parseInt($myThis.css("padding")) * 2 + "px");
+ //                }
+ //                divIframe.css("filter", "mask(color=#fff)");
+ //                $myThis.append(divIframe);
+ //            });
+ //        }
+ //    }
+ //    $.fn.decorateIframe.defaults = {
+ //        iframeId: "decorateIframe1",
+ //        iframeZIndex: -1,
+ //        width: 0,
+ //        height: 0
+ //    }
+    //放大镜视窗
+   // $("#bigView").decorateIframe();
 
-//     //点击到中图
-//     var midChangeHandler = null;
+    //点击到中图
+ //    var midChangeHandler = null;
 	
-//     $("#imageMenu li img").bind("click", function(){
-// 		if ($(this).attr("id") != "onlickImg") {
-// 			midChange($(this).attr("src").replace("small", "mid"));
-// 			$("#imageMenu li").removeAttr("id");
-// 			$(this).parent().attr("id", "onlickImg");
-// 		}
-// 	}).bind("mouseover", function(){
-// 		if ($(this).attr("id") != "onlickImg") {
-// 			window.clearTimeout(midChangeHandler);
-// 			midChange($(this).attr("src").replace("small", "mid"));
-// 			$(this).css({ "border": "3px solid #959595" });
-// 		}
-// 	}).bind("mouseout", function(){
-// 		if($(this).attr("id") != "onlickImg"){
-// 			$(this).removeAttr("style");
-// 			midChangeHandler = window.setTimeout(function(){
-// 				midChange($("#onlickImg img").attr("src").replace("small", "mid"));
-// 			}, 1000);
-// 		}
-// 	});
+ //    $("#imageMenu li img").bind("click", function(){
+	// 	if ($(this).attr("id") != "onlickImg") {
+	// 		midChange($(this).attr("src").replace("small", "mid"));
+	// 		$("#imageMenu li").removeAttr("id");
+	// 		$(this).parent().attr("id", "onlickImg");
+	// 	}
+	// }).bind("mouseover", function(){
+	// 	if ($(this).attr("id") != "onlickImg") {
+	// 		window.clearTimeout(midChangeHandler);
+	// 		midChange($(this).attr("src").replace("small", "mid"));
+	// 		$(this).css({ "border": "3px solid #959595" });
+	// 	}
+	// }).bind("mouseout", function(){
+	// 	if($(this).attr("id") != "onlickImg"){
+	// 		$(this).removeAttr("style");
+	// 		midChangeHandler = window.setTimeout(function(){
+	// 			midChange($("#onlickImg img").attr("src").replace("small", "mid"));
+	// 		}, 1000);
+	// 	}
+	// });
 
-//     function midChange(src) {
-//         $("#midimg").attr("src", src).load(function() {
-//             changeViewImg();
-//         });
-//     }
+ //    function midChange(src) {
+ //        $("#midimg").attr("src", src).load(function() {
+ //            changeViewImg();
+ //        });
+ //    }
 
-//     //大视窗看图
+    //大视窗看图
 //     function mouseover(e) {
 //         if ($("#winSelector").css("display") == "none") {
 //             $("#winSelector,#bigView").show();

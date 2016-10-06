@@ -1,7 +1,7 @@
 ﻿<!DOCTYPE HTML>
 <html>
 	<head>
-		<title>产品详情页</title>
+		<title>pic_detail</title>
 		<!--css-->
 		<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
 		<link href="css/style.css" rel='stylesheet' type='text/css' />
@@ -13,18 +13,15 @@
 		<!--js-->
 		<script src="js/jquery-1.11.1.min.js"></script>
 		<script src="js/bootstrap.js"></script>
-
 		<!--js-->
-		<!--JS for animate-->
-		<link href="css/animate.css" rel="stylesheet" type="text/css" media="all">
-		<link href="css/my.css" rel="stylesheet" type="text/css">
 		<script src="js/wow.min.js"></script>
 		<script>
 			new WOW().init();
 		</script>
-		<!--//end-animate-->
+		<!--JS for animate-->
+		<link href="css/animate.css" rel="stylesheet" type="text/css" media="all">
+		<link href="css/my.css" rel="stylesheet" type="text/css">
 		<script src="js/my.js"></script>
-		
 	</head>
 	<body>
 		<!--header-->
@@ -62,162 +59,151 @@
 				<div class="container">
 					<h2>&nbsp;</h2>
 					<div class="news_seek">
-		            <form method="post" action="" id="form">
-		                <input style="width: 200px;" value="43" name="pid" type="hidden">
-		                <input style="width: 200px;" value="22" name="mid" type="hidden">
-		                <input style="display: inline-block; width: 200px; padding:5px;" value="" name="keywords" id="k" class="text" type="text" placeholder='请输入关键字'>
-		                <img src="images/btn_search.png" onclick="search_news()" alt="搜索网站案例" height="16" width="16">
-		            </form>
-		        </div>
+						<form method="post" action="" id="form">
+							<input style="width: 200px;" value="43" name="pid" type="hidden">
+							<input style="width: 200px;" value="22" name="mid" type="hidden">
+							<input style="display: inline-block; width: 200px; padding:5px;" value="" name="keywords" id="k" class="text" type="text" placeholder='请输入关键字'>
+							<img src="images/btn_search.png" onclick="search_news()" alt="搜索网站案例" height="16" width="16">
+						</form>
+					</div>
 				</div>
 				
 			</div>
 			<!--banner-->
-
 			
-
 			<!--about-->
 			
 			
 			<div class="testimonials-section" style="padding:40px 0px;background:#fff;">
-					<div class="container">
-						<!--bread-->
-						<div class="bread wow fadeInLeft animated" data-wow-delay="0.4s">
-							<ol class="breadcrumb">
-							  <li><a href="#">首页</a></li>
-							  <li><a href="#">器材类名称</a></li>
-							  <li><a href="#">器材品牌名称</a></li>
-							  <li  class="active">器材名称</li>
-							</ol>
+				<div class="container">
+					<!--bread-->
+					<div class="bread wow fadeInLeft animated" data-wow-delay="0.4s">
+						<ol class="breadcrumb">
+							<li><a href="#">首页</a></li>
+							<li><a href="#">器材类名称</a></li>
+							<li><a href="#">器材品牌名称</a></li>
+							<li  class="active">器材名称</li>
+						</ol>
+					</div>
+					<!--bread-->
+					<div class="col-md-9">
+						<div class="bs-callout bs-callout-info wow fadeInLeft animated" data-wow-delay="0.4s">
+							<h4>这里是器材名称</h4>
 						</div>
-						<!--bread-->
-						<div class="col-md-9">
-							<div class="bs-callout bs-callout-info wow fadeInLeft animated" data-wow-delay="0.4s">
-								<h4>这里是器材名称</h4>
+						<div class="hot-tag relate-tag wow fadeInRight animated" data-wow-delay="0.4s">
+							相关标签 <i class="glyphicon glyphicon-tags"></i>
+							<div class="tag-list">
+								<a href="" class="tag">adfsdfsdfdf</a>
+								<a href="" class="tag">adfsdfsdfdf</a>
+								<a href="" class="tag">adfsdfsdfdf</a>
+								<a href="" class="tag">adfsdfsdfdf</a>
+								<a href="" class="tag">adfsdfsdfdf</a>
+								<a href="" class="tag">adfsdfsdfdf</a>
 							</div>
-							<div class="hot-tag relate-tag wow fadeInRight animated" data-wow-delay="0.4s">
-								相关标签 <i class="glyphicon glyphicon-tags"></i>
-								<div class="tag-list">
-									<a href="" class="tag">adfsdfsdfdf</a>
-									<a href="" class="tag">adfsdfsdfdf</a>
-									<a href="" class="tag">adfsdfsdfdf</a>
-									<a href="" class="tag">adfsdfsdfdf</a>
-									<a href="" class="tag">adfsdfsdfdf</a>
-									<a href="" class="tag">adfsdfsdfdf</a>
-								</div>
-								<div class="clearfix"></div>
-							</div>
-							<div class="col-md-4" style="padding:0px;">
-								<script type="text/javascript" src="js/jquery.1.4.2-min.js"></script>
-								<div class="preview wow fadeInLeft animated" data-wow-delay="0.4s">
-									<div id="vertical" class="bigImg">
-										<img src="picture/c1.jpg" width="260" height="260" alt="" id="midimg" />
-
-										<div style="display:none;" id="winSelector"></div>
-										</div><!--bigImg end-->
-										
-										<!-- <div class="smallImg">
+							<div class="clearfix"></div>
+						</div>
+						<div class="col-md-4" style="padding:0px;">
+							<script type="text/javascript" src="js/jquery.1.4.2-min.js"></script>
+							<div class="preview wow fadeInLeft animated" data-wow-delay="0.4s">
+								<div id="vertical" class="bigImg">
+									<img src="picture/c1.jpg" width="260" height="260" alt="" id="midimg" />
+									<div style="display:none;" id="winSelector"></div>
+									</div><!--bigImg end-->
+									
+									<!-- <div class="smallImg">
 												<div class="scrollbutton smallImgUp disabled"></div>
 												<div id="imageMenu">
-														<ul>
-																<li id="onlickImg"><img src="picture/c1.jpg" width="68" height="68" alt="洋妞"/></li>
-																<li><img src="picture/c1.jpg" width="68" height="68" alt="洋妞"/></li>
-																<li><img src="picture/c2.jpg" width="68" height="68" alt="洋妞"/></li>
-																<li><img src="picture/c3.jpg" width="68" height="68" alt="洋妞"/></li>
-														</ul>
+															<ul>
+																		<li id="onlickImg"><img src="picture/c1.jpg" width="68" height="68" alt="洋妞"/></li>
+																		<li><img src="picture/c1.jpg" width="68" height="68" alt="洋妞"/></li>
+																		<li><img src="picture/c2.jpg" width="68" height="68" alt="洋妞"/></li>
+																		<li><img src="picture/c3.jpg" width="68" height="68" alt="洋妞"/></li>
+															</ul>
 												</div>
 												<div class="scrollbutton smallImgDown"></div>
-										</div>-->
-										<div id="bigView" style="display:none;"><img width="800" height="800" alt="" src="" /></div>
+									</div>-->
+									<div id="bigView" style="display:none;"><img width="800" height="800" alt="" src="" /></div>
 									</div><!--preview end-->
 									<div class="pro-price">
 										<small>价格</small><strong>  ￥ 20.00</strong>
 									</div>
-							</div>
+								</div>
 								
-							<div class="col-md-8" style="padding:0px;">
-								<table class="mytable wow fadeInUp animated" data-wow-delay="0.4s" cellspacing="0">
-									<tr>
-										<th  colspan="2">用户评级</th>
-										
-									</tr>
-									<tr>
-										<td class="specalt">属性名 <img class="hidden-xs" src="images/btn-info.gif" title="" data-toggle="tooltip" data-html="true" data-placement="top" data-original-title="这里是属性说明这里是属性说明这里是属性说明这里是属性说明这里是属性说明"></td>
-										<td class="spec">1</td>
-									</tr>
-									<tr>
-										<td class="specalt">属性名 <img class="hidden-xs" src="images/btn-info.gif" title="" data-toggle="tooltip" data-html="true" data-placement="top" data-original-title="这里是属性说明这里是属性说明这里是属性说明这里是属性说明这里是属性说明"></td>
-										<td class="spec">2</td>
-									</tr>
-									<tr>
-										<td class="specalt">属性名 <img class="hidden-xs" src="images/btn-info.gif" title="" data-toggle="tooltip" data-html="true" data-placement="top" data-original-title="这里是属性说明这里是属性说明这里是属性说明这里是属性说明这里是属性说明"></td>
-										<td class="spec">3</td>
-									</tr>
-									<tr>
-										<td class="specalt">属性名 <img class="hidden-xs" src="images/btn-info.gif" title="" data-toggle="tooltip" data-html="true" data-placement="top" data-original-title="这里是属性说明这里是属性说明这里是属性说明这里是属性说明这里是属性说明"></td>
-										<td class="spec">4</td>
-									</tr>
-									<tr>
-										<td class="specalt">属性名 <img class="hidden-xs" src="images/btn-info.gif" title="" data-toggle="tooltip" data-html="true" data-placement="top" data-original-title="这里是属性说明这里是属性说明这里是属性说明这里是属性说明这里是属性说明"></td>
-										<td class="spec">5</td>
-									</tr>
-									<tr>
-										<td class="specalt">属性名 <img class="hidden-xs" src="images/btn-info.gif" title="" data-toggle="tooltip" data-html="true" data-placement="top" data-original-title="这里是属性说明这里是属性说明这里是属性说明这里是属性说明这里是属性说明"></td>
-										<td class="spec">6</td>
-									</tr>
-									<tr>
-										<td class="specalt overall">总体</td>
-										<td class="spec overall">6</td>
-									</tr>
-								</table>
-
-								<p class="text-primary wow fadeInUp animated" data-wow-delay="0.5s">这是没有录入供应商评级时的提示</p>
-
-								<table class="mytable wow fadeInUp animated" data-wow-delay="0.5s" cellspacing="0">
-									<tr>
-										<th  colspan="2">供应商评级</th>
-										
-									</tr>
-									<tr>
-										<td class="specalt">属性名 <img class="hidden-xs" src="images/btn-info.gif" title="" data-toggle="tooltip" data-html="true" data-placement="top" data-original-title="这里是属性说明这里是属性说明这里是属性说明这里是属性说明这里是属性说明"></td>
-										<td class="spec">1</td>
-									</tr>
-									<tr>
-										<td class="specalt">属性名 <img class="hidden-xs" src="images/btn-info.gif" title="" data-toggle="tooltip" data-html="true" data-placement="top" data-original-title="这里是属性说明这里是属性说明这里是属性说明这里是属性说明这里是属性说明"></td>
-										<td class="spec">2</td>
-									</tr>
-									<tr>
-										<td class="specalt">属性名 <img class="hidden-xs" src="images/btn-info.gif" title="" data-toggle="tooltip" data-html="true" data-placement="top" data-original-title="这里是属性说明这里是属性说明这里是属性说明这里是属性说明这里是属性说明"></td>
-										<td class="spec">3</td>
-									</tr>
-									<tr>
-										<td class="specalt">属性名 <img class="hidden-xs" src="images/btn-info.gif" title="" data-toggle="tooltip" data-html="true" data-placement="top" data-original-title="这里是属性说明这里是属性说明这里是属性说明这里是属性说明这里是属性说明"></td>
-										<td class="spec">4</td>
-									</tr>
-									<tr>
-										<td class="specalt overall">总体</td>
-										<td class="spec overall">6</td>
-									</tr>
-								</table>
-
-
-							</div>
-
-
-							<div class="statement wow fadeInLeft fr animated" data-wow-delay="0.4s">
-								<ul class="nav nav-tabs" role="tablist">
-							      <li role="presentation" class="active"><a href="#home" id="home-tab" role="tab" data-toggle="tab" aria-controls="home" aria-expanded="true">器材简介</a></li>
-							    </ul>
-							    <div class="tab-content">
-							      <div role="tabpanel" class="tab-pane fade active in" id="home" aria-labelledby="home-tab">
-							        <p>这里是简介内容这里是简介内容这里是简介内容这里是简介内容这里是简介内容这里是简介内容这里是简介内容这里是简介内容这里是简介内容这里是简介内容这里是简介内容这里是简介内容这里是简介内容这里是简介内容这里是简介内容这里是简介内容这里是简介内容这里是简介内容这里是简介内容这里是简介内容这里是简介内容这里是简介内容这里是简介内容这里是简介内容这里是简介内容这里是简介内容这里是简介内容这里是简介内<a href="javascript:void(0)" class="expand" id="showTxt">展开 <i class="glyphicon glyphicon-chevron-down"></i></a><span class="txtHide">介内容这里是简介内容这里是简介内容这里是简介内容这里是简介内容这里是简介内容这里是简介内容这里是简介内容这里是简介内容这里是简介内容这里是简介内容这里是简介内容这里是简介内容这里是简介内容这里是简介内容这里是简介内容这里是简介内容这里<a href="javascript:void(0)" class="expand" id="hideTxt">收起 <i class="glyphicon glyphicon-chevron-up"></i></a></span>
-							        </p>
-							      </div>
-							    </div>
+								<div class="col-md-8" style="padding:0px;">
+									<table class="mytable wow fadeInUp animated" data-wow-delay="0.4s" cellspacing="0">
+										<tr>
+											<th  colspan="2">用户评级</th>
+											
+										</tr>
+										<tr>
+											<td class="specalt">属性名 <img class="hidden-xs" src="images/btn-info.gif" title="" data-toggle="tooltip" data-html="true" data-placement="top" data-original-title="这里是属性说明这里是属性说明这里是属性说明这里是属性说明这里是属性说明"></td>
+											<td class="spec">1</td>
+										</tr>
+										<tr>
+											<td class="specalt">属性名 <img class="hidden-xs" src="images/btn-info.gif" title="" data-toggle="tooltip" data-html="true" data-placement="top" data-original-title="这里是属性说明这里是属性说明这里是属性说明这里是属性说明这里是属性说明"></td>
+											<td class="spec">2</td>
+										</tr>
+										<tr>
+											<td class="specalt">属性名 <img class="hidden-xs" src="images/btn-info.gif" title="" data-toggle="tooltip" data-html="true" data-placement="top" data-original-title="这里是属性说明这里是属性说明这里是属性说明这里是属性说明这里是属性说明"></td>
+											<td class="spec">3</td>
+										</tr>
+										<tr>
+											<td class="specalt">属性名 <img class="hidden-xs" src="images/btn-info.gif" title="" data-toggle="tooltip" data-html="true" data-placement="top" data-original-title="这里是属性说明这里是属性说明这里是属性说明这里是属性说明这里是属性说明"></td>
+											<td class="spec">4</td>
+										</tr>
+										<tr>
+											<td class="specalt">属性名 <img class="hidden-xs" src="images/btn-info.gif" title="" data-toggle="tooltip" data-html="true" data-placement="top" data-original-title="这里是属性说明这里是属性说明这里是属性说明这里是属性说明这里是属性说明"></td>
+											<td class="spec">5</td>
+										</tr>
+										<tr>
+											<td class="specalt">属性名 <img class="hidden-xs" src="images/btn-info.gif" title="" data-toggle="tooltip" data-html="true" data-placement="top" data-original-title="这里是属性说明这里是属性说明这里是属性说明这里是属性说明这里是属性说明"></td>
+											<td class="spec">6</td>
+										</tr>
+										<tr>
+											<td class="specalt overall">总体</td>
+											<td class="spec overall">6</td>
+										</tr>
+									</table>
+									<p class="text-primary wow fadeInUp animated" data-wow-delay="0.5s">这是没有录入供应商评级时的提示</p>
+									<table class="mytable wow fadeInUp animated" data-wow-delay="0.5s" cellspacing="0">
+										<tr>
+											<th  colspan="2">供应商评级</th>
+											
+										</tr>
+										<tr>
+											<td class="specalt">属性名 <img class="hidden-xs" src="images/btn-info.gif" title="" data-toggle="tooltip" data-html="true" data-placement="top" data-original-title="这里是属性说明这里是属性说明这里是属性说明这里是属性说明这里是属性说明"></td>
+											<td class="spec">1</td>
+										</tr>
+										<tr>
+											<td class="specalt">属性名 <img class="hidden-xs" src="images/btn-info.gif" title="" data-toggle="tooltip" data-html="true" data-placement="top" data-original-title="这里是属性说明这里是属性说明这里是属性说明这里是属性说明这里是属性说明"></td>
+											<td class="spec">2</td>
+										</tr>
+										<tr>
+											<td class="specalt">属性名 <img class="hidden-xs" src="images/btn-info.gif" title="" data-toggle="tooltip" data-html="true" data-placement="top" data-original-title="这里是属性说明这里是属性说明这里是属性说明这里是属性说明这里是属性说明"></td>
+											<td class="spec">3</td>
+										</tr>
+										<tr>
+											<td class="specalt">属性名 <img class="hidden-xs" src="images/btn-info.gif" title="" data-toggle="tooltip" data-html="true" data-placement="top" data-original-title="这里是属性说明这里是属性说明这里是属性说明这里是属性说明这里是属性说明"></td>
+											<td class="spec">4</td>
+										</tr>
+										<tr>
+											<td class="specalt overall">总体</td>
+											<td class="spec overall">6</td>
+										</tr>
+									</table>
+								</div>
+								<div class="statement wow fadeInLeft fr animated" data-wow-delay="0.4s">
+									<ul class="nav nav-tabs" role="tablist">
+										<li role="presentation" class="active"><a href="#home" id="home-tab" role="tab" data-toggle="tab" aria-controls="home" aria-expanded="true">器材简介</a></li>
+									</ul>
+									<div class="tab-content">
+										<div role="tabpanel" class="tab-pane fade active in" id="home" aria-labelledby="home-tab">
+											<p>这里是简介内容这里是简介内容这里是简介内容这里是简介内容这里是简介内容这里是简介内容这里是简介内容这里是简介内容这里是简介内容这里是简介内容这里是简介内容这里是简介内容这里是简介内容这里是简介内容这里是简介内容这里是简介内容这里是简介内容这里是简介内容这里是简介内容这里是简介内容这里是简介内容这里是简介内容这里是简介内容这里是简介内容这里是简介内容这里是简介内容这里是简介内容这里是简介内<a href="javascript:void(0)" class="expand" id="showTxt">展开 <i class="glyphicon glyphicon-chevron-down"></i></a><span class="txtHide">介内容这里是简介内容这里是简介内容这里是简介内容这里是简介内容这里是简介内容这里是简介内容这里是简介内容这里是简介内容这里是简介内容这里是简介内容这里是简介内容这里是简介内容这里是简介内容这里是简介内容这里是简介内容这里是简介内容这里<a href="javascript:void(0)" class="expand" id="hideTxt">收起 <i class="glyphicon glyphicon-chevron-up"></i></a></span>
+										</p>
+									</div>
+								</div>
 							</div>
 							<div class="clearfix"></div>
-
-
 							<div class="news_list recommend-article">
 								<div class="bs-callout bs-callout-info wow fadeInRight animated" data-wow-delay="0.4s">
 									<h5>推荐文章</h5>
@@ -323,77 +309,31 @@
 						
 						<div class="col-md-3 wow fadeInUp animated" data-wow-delay="1s">
 							<div class="hot-tag">
-						 	<h4>热门标签</h4>
-						 	<div class="tag-list">
-							 	<a href="" class="tag">sdfd</a>
-							 	<a href="" class="tag">asdfasdf</a>
-							 	<a href="" class="tag">asdfasdfa</a>
-							 	<a href="" class="tag">sdfsdf</a>
-							 	<a href="" class="tag">asdf</a>
-							 	<a href="" class="tag">asdfasdfds</a>
-							 	<a href="" class="tag">asdfasd</a>
-							 	<a href="" class="tag">dfdfweewew</a>
-							 	<a href="" class="tag">fsdf</a>
-							 	<a href="" class="tag">sdfsdfs</a>
-							 	<a href="" class="tag">sdfsdf</a>
-						 	</div>
-						 	<div class="clearfix"></div>
-						 </div>
+								<h4>热门标签</h4>
+								<div class="tag-list">
+									<a href="" class="tag">sdfd</a>
+									<a href="" class="tag">asdfasdf</a>
+									<a href="" class="tag">asdfasdfa</a>
+									<a href="" class="tag">sdfsdf</a>
+									<a href="" class="tag">asdf</a>
+									<a href="" class="tag">asdfasdfds</a>
+									<a href="" class="tag">asdfasd</a>
+									<a href="" class="tag">dfdfweewew</a>
+									<a href="" class="tag">fsdf</a>
+									<a href="" class="tag">sdfsdfs</a>
+									<a href="" class="tag">sdfsdf</a>
+								</div>
+								<div class="clearfix"></div>
+							</div>
 						</div>
-							
-
-							
-
 						
-
-
+						
+						
 						
 					</div>
 				</div>
-
-			<!--about-->
-			<!--footer-->
-				<div class="footer-section">
-					<div class="container">
-						<div class="footer-grids">
-							<div class="col-md-3 footer-grid wow fadeInDownBig animated" data-wow-delay="0.4s">
-								<h4>关于我们</h4>
-								<p>关于我们关于我们关于我们关于我们关于我们关于我们关于我们关于我们关于我们关于我们关于我们关于我们关于我们关于我们</p>
-							</div>
-							<div class="col-md-3 footer-grid wow fadeInLeft animated" data-wow-delay="0.4s">
-								<h4>最新器材</h4>
-								<ul>
-									<li><a href="">器材名称</a></li>
-									<li><a href="">器材名称</a></li>
-									<li><a href="">器材名称</a></li>
-									<li><a href="">器材名称</a></li>
-									<li><a href="">器材名称</a></li>
-								</ul>
-							</div>
-							<div class="col-md-3 footer-grid wow fadeInUpBig animated" data-wow-delay="0.4s">
-								<h4>最新资讯</h4>
-								<ul>
-									<li><a href="">资讯标题</a></li>
-									<li><a href="">资讯标题</a></li>
-									<li><a href="">资讯标题</a></li>
-									<li><a href="">资讯标题</a></li>
-									<li><a href="">资讯标题</a></li>
-								</ul>
-							</div>
-							<div class="col-md-3 footer-grid wow fadeInRight animated" data-wow-delay="0.4s">
-								<h4>Contact</h4>
-								<p>7801 Marmora Road</p>
-								<p>Glasgow, DO5 98GR.</p>
-								<p>Freephone: +1 800 558 8990</p>
-								<p>Telephone: +1 659 803 9035</p>
-								<p>FAX: + 1 314 889 9898</p>
-								<a href="mailto:example@mail.com"> example@mail.com</a>
-							</div>
-							<div class="clearfix"></div>
-						</div>
-					</div>
-				</div>
-				<!--footer-->
+				<!--about-->
+				
 				<!--copy-->
 				<div class="copy-section wow fadeInDownBig animated" data-wow-delay="0.4s">
 					<div class="container">
