@@ -58,3 +58,9 @@ html,body{
   margin-top: -36px;
 }
 
+
+.table-display{ height: 100%; display: table; width: 1175px; margin: auto;}
+.table-cell-display{ display: table-cell;; vertical-align: middle;}
+
+
+
