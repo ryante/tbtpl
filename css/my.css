@@ -424,7 +424,7 @@ table.top_product_list tr.head a {
 .statement .expand{ color: #0297B7}
 .statement .txtHide{ display: none;}
 .recommend-article .news_cont{ width: 660px;}
-.testimonials-section h5{ margin-bottom: 0px; font-size: 1.3em;}
+.testimonials-section h5{ margin-top: 4px; font-size: 1.3em;}
 .recommend-article .news_cont .demo{ height: 100px}
 .recommend-article .news_cont .btn_news_more{ margin-top: -20px;}
 
@@ -444,3 +444,6 @@ table.top_product_list tr.head a {
 .navbar-right li a {
     background: none !important;
 }
+.rating{ margin-top: -10px; margin-bottom: 0px;}
+.copy-section{ color: #fff;}
+.social-icons{ margin-top: 30px;}

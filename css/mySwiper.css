@@ -52,15 +52,16 @@ html,body{
   height: 100%;
 }
 .copy-section .container{
-  width: 100%;
-  position: absolute;
-  top: 50%;
-  margin-top: -36px;
+  
+  margin-top: 100px;
 }
 
 
 .table-display{ height: 100%; display: table; width: 1175px; margin: auto;}
 .table-cell-display{ display: table-cell;; vertical-align: middle;}
-
+.hot-material .col-md-2{ width: 14% !important;}
+.contact-us h2{ padding: 10px 30px; text-align: right;}
+.contact-us h5{ padding: 0px 30px; text-align: left; line-height: 26px; font-size: 15px;}
+.contact-us .welcome-txt{ text-align: right; padding: 30px; line-height: 26px;}
 
 
